@@ -1,4 +1,4 @@
-# Hi, I'm Igor
+# Links for quick navigation
 
 ## Unified Binary Trie (EIP-7864)
 
