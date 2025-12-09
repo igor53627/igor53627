@@ -32,7 +32,6 @@
 | Project | Description |
 |---------|-------------|
 | [iconregistry.eth](https://github.com/igor53627/iconregistry.eth) | Icon registry smart contract; on-chain mapping for asset/contract icons to improve UX for wallets, explorers, and dapps. |
-| [yolo](https://github.com/igor53627/yolo) | Privacy-preserving yield-bearing stablecoin on Ethereum L1 (private); explores fully collateralized stablecoin design with hidden balances and flows. |
 | [evm-glue](https://github.com/igor53627/evm-glue) | Fork of EVM Glue with optimization for Fusaka; tuned for performance and experimentation with custom EVM backends. |
 
 ## Private
@@ -41,6 +40,8 @@
 
 | Project | Description |
 |---------|-------------|
+| [yolo](https://github.com/igor53627/yolo) | Privacy-preserving yield-bearing stablecoin on Ethereum L1; explores fully collateralized stablecoin design with hidden balances and flows. |
+| [reth-relay](https://github.com/igor53627/reth-relay) | Privacy-focused P2P relay for reth with Tor/I2P support. |
 | [amp-config](https://github.com/igor53627/amp-config) | Global config for Amp; personal workspace, presets, and automation for AI-assisted development. |
 | [orgmode](https://github.com/igor53627/orgmode) | Personal knowledge base; long-term research notes, design docs, and project planning in Emacs Org-mode. |
 | [blockscout-exex](https://github.com/igor53627/blockscout-exex) | Blockscout-compatible indexer as a Reth sidecar; consumes Reth execution data to power Blockscout without a separate indexing stack. |
