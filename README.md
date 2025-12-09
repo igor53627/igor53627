@@ -1,4 +1,4 @@
-# Table of contents or use 搜索
+*Here is a table of contents since pin functionality is quite basic for many projects; scroll categories and projects or use 搜索*
 
 ## Unified Binary Trie (EIP-7864)
 
