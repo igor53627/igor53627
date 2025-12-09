@@ -4,35 +4,36 @@
 
 | Project | Description |
 |---------|-------------|
-| [ubt-rs](https://github.com/igor53627/ubt-rs) | Rust implementation of Unified Binary Trie |
-| [reth-ubt-exex](https://github.com/igor53627/reth-ubt-exex) | Reth execution extension for UBT |
-| [reth-ubt-migration](https://github.com/igor53627/reth-ubt-migration) | Migration tooling for UBT in Reth |
+| [ubt-rs](https://github.com/igor53627/ubt-rs) | Rust implementation of Unified Binary Trie; reference EIP-7864 data structure for efficient Ethereum state storage and migration experiments. |
+| [reth-ubt-exex](https://github.com/igor53627/reth-ubt-exex) | Reth execution extension for UBT; plugs a UBT-backed state engine into Reth to evaluate EIP-7864 in a real client. |
+| [reth-ubt-migration](https://github.com/igor53627/reth-ubt-migration) | Migration tooling for UBT in Reth; utilities to convert existing Reth state to UBT and benchmark migration performance. |
 
 ## Private Information Retrieval (PIR)
 
 | Project | Description |
 |---------|-------------|
-| [plinko-extractor](https://github.com/igor53627/plinko-extractor) | Practical Rust implementation of PLINKO PIR protocol with data extraction from Sepolia and Hint generation |
-| [plinko-research](https://github.com/igor53627/plinko-research) | Research and experiments on Plinko PIR |
-| [inspire-rs](https://github.com/igor53627/inspire-rs) | Rust implementation of INSPIRE PIR protocol |
+| [plinko-extractor](https://github.com/igor53627/plinko-extractor) | Practical Rust implementation of the PLINKO PIR protocol with data extraction from Sepolia and hint generation; built to feed real-world PIR queries from on-chain Ethereum data. |
+| [plinko-research](https://github.com/igor53627/plinko-research) | Research and experiments on PLINKO PIR; prototypes, benchmarks, and design notes exploring latency/bandwidth trade-offs and deployment models. |
+| [inspire-rs](https://github.com/igor53627/inspire-rs) | Rust implementation of the INSPIRE PIR protocol; focuses on production-ready primitives and integration with Ethereum-style datasets. |
 
 ## TOR & Privacy Infrastructure
 
 | Project | Description |
 |---------|-------------|
-| [tor-ethereum-ecosystem](https://github.com/igor53627/tor-ethereum-ecosystem) | Ethereum ecosystem tools accessible over TOR |
-| [webtor-rs](https://github.com/igor53627/webtor-rs) | Rust library for TOR web services |
-| [kohaku](https://github.com/igor53627/kohaku) | Example integration for webtor-rs |
-| [onion-service-monitor](https://github.com/igor53627/onion-service-monitor) | Monitoring tool for onion services |
-| [blockscout-onion](https://github.com/igor53627/blockscout-onion) | Blockscout blockchain explorer over TOR |
+| [tor-ethereum-ecosystem](https://github.com/igor53627/tor-ethereum-ecosystem) | Ethereum ecosystem tools accessible over TOR; curated configs and examples for running RPCs, explorers, and infra as Tor onion services. |
+| [webtor-rs](https://github.com/igor53627/webtor-rs) | Rust library for TOR web services; simplifies exposing HTTP APIs as onion services and managing Tor integration in Rust backends. |
+| [kohaku](https://github.com/igor53627/kohaku) | Example integration for webtor-rs; demonstrates how to turn an existing Rust web service into a Tor-native application. |
+| [onion-service-monitor](https://github.com/igor53627/onion-service-monitor) | Monitoring tool for onion services; tracks uptime, reachability, and health of Tor endpoints used by privacy-focused infrastructure. |
+| [blockscout-onion](https://github.com/igor53627/blockscout-onion) | Blockscout blockchain explorer over TOR; packages a full Blockscout stack behind an onion service for censorship-resistant chain analytics. |
+| [gethrelay](https://github.com/igor53627/gethrelay) | Geth relay service for TOR; enables Ethereum node communication over the Tor network. |
 
 ## Smart Contracts & EVM
 
 | Project | Description |
 |---------|-------------|
-| [iconregistry.eth](https://github.com/igor53627/iconregistry.eth) | Icon registry smart contract |
-| [yolo](https://github.com/igor53627/yolo) | Privacy-preserving yield-bearing stablecoin on Ethereum L1 (private) |
-| [evm-glue](https://github.com/igor53627/evm-glue) | Fork of EVM Glue with optimization for Fusaka |
+| [iconregistry.eth](https://github.com/igor53627/iconregistry.eth) | Icon registry smart contract; on-chain mapping for asset/contract icons to improve UX for wallets, explorers, and dapps. |
+| [yolo](https://github.com/igor53627/yolo) | Privacy-preserving yield-bearing stablecoin on Ethereum L1 (private); explores fully collateralized stablecoin design with hidden balances and flows. |
+| [evm-glue](https://github.com/igor53627/evm-glue) | Fork of EVM Glue with optimization for Fusaka; tuned for performance and experimentation with custom EVM backends. |
 
 ## Private
 
@@ -40,7 +41,7 @@
 
 | Project | Description |
 |---------|-------------|
-| [igor53627](https://github.com/igor53627?tab=repositories) | Global config for Amp |
-| [orgmode](https://github.com/igor53627/orgmode) | Personal knowledge base |
-| [blockscout-exex](https://github.com/igor53627/blockscout-exex) | Blockscout-compatible indexer as a Reth sidecar |
-| [blockscout-proxy](https://github.com/igor53627/blockscout-proxy) | Caddy + Nodecore + TIG stack for Blockscout |
+| [amp-config](https://github.com/igor53627/amp-config) | Global config for Amp; personal workspace, presets, and automation for AI-assisted development. |
+| [orgmode](https://github.com/igor53627/orgmode) | Personal knowledge base; long-term research notes, design docs, and project planning in Emacs Org-mode. |
+| [blockscout-exex](https://github.com/igor53627/blockscout-exex) | Blockscout-compatible indexer as a Reth sidecar; consumes Reth execution data to power Blockscout without a separate indexing stack. |
+| [blockscout-proxy](https://github.com/igor53627/blockscout-proxy) | Caddy + Nodecore + TIG stack for Blockscout; production-oriented reverse proxy, logging, and observability layer for Blockscout deployments. |
