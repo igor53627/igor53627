@@ -1,4 +1,4 @@
-# Links for quick navigation
+# 搜索
 
 ## Unified Binary Trie (EIP-7864)
 
