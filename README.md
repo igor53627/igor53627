@@ -46,3 +46,4 @@
 | [orgmode](https://github.com/igor53627/orgmode) | Personal knowledge base; long-term research notes, design docs, and project planning in Emacs Org-mode. |
 | [blockscout-exex](https://github.com/igor53627/blockscout-exex) | Blockscout-compatible indexer as a Reth sidecar; consumes Reth execution data to power Blockscout without a separate indexing stack. |
 | [blockscout-proxy](https://github.com/igor53627/blockscout-proxy) | Caddy + Nodecore + TIG stack for Blockscout; production-oriented reverse proxy, logging, and observability layer for Blockscout deployments. |
+| [libmdbx-optimized](https://github.com/igor53627/libmdbx-optimized) | Fork of libmdbx with AVX2/NASM optimizations for AMD EPYC/Zen; performance tuning for high-throughput Ethereum state storage. |
