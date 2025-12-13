@@ -1,6 +1,6 @@
 *Here is a table of contents since pin functionality is quite basic when there are many projects; scroll categories and projects or use 搜索*
 
-## Unified Binary Trie (EIP-7864)
+### Unified Binary Trie (EIP-7864)
 
 | Project | Description |
 |---------|-------------|
@@ -8,7 +8,7 @@
 | [reth-ubt-exex](https://github.com/igor53627/reth-ubt-exex) | Reth execution extension for UBT; plugs a UBT-backed state engine into Reth to evaluate EIP-7864 in a real client. |
 | [reth-ubt-migration](https://github.com/igor53627/reth-ubt-migration) | Migration tooling for UBT in Reth; utilities to convert existing Reth state to UBT and benchmark migration performance. |
 
-## Private Information Retrieval (PIR)
+### Private Information Retrieval (PIR)
 
 | Project | Description |
 |---------|-------------|
@@ -16,7 +16,7 @@
 | [plinko-research](https://github.com/igor53627/plinko-research) | Research and experiments on PLINKO PIR; prototypes, benchmarks, and design notes exploring latency/bandwidth trade-offs and deployment models. |
 | [inspire-rs](https://github.com/igor53627/inspire-rs) | Rust implementation of the INSPIRE PIR protocol; focuses on production-ready primitives and integration with Ethereum-style datasets. |
 
-## TOR & Privacy Infrastructure
+### TOR & Privacy Infrastructure
 
 | Project | Description |
 |---------|-------------|
@@ -27,14 +27,14 @@
 | [blockscout-onion](https://github.com/igor53627/blockscout-onion) | Blockscout blockchain explorer over TOR; packages a full Blockscout stack behind an onion service for censorship-resistant chain analytics. |
 | [gethrelay](https://github.com/igor53627/gethrelay) | Geth relay service for TOR; enables Ethereum node communication over the Tor network. |
 
-## Smart Contracts & EVM
+### Smart Contracts & EVM
 
 | Project | Description |
 |---------|-------------|
 | [iconregistry.eth](https://github.com/igor53627/iconregistry.eth) | Icon registry smart contract; on-chain mapping for asset/contract icons to improve UX for wallets, explorers, and dapps. |
 | [evm-glue](https://github.com/igor53627/evm-glue) | Fork of EVM Glue with optimization for Fusaka; tuned for performance and experimentation with custom EVM backends. |
 
-## Private
+### Private
 
 *These repos are not publicly available. Links are used by Player 53627 for easy navigation.*
 
