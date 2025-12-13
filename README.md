@@ -2,19 +2,17 @@
 
 ## Unified Binary Trie (EIP-7864)
 
-| Project | Description |
-|---------|-------------|
-| [ubt-rs](https://github.com/igor53627/ubt-rs) | Rust implementation of Unified Binary Trie; reference EIP-7864 data structure for efficient Ethereum state storage and migration experiments. |
-| [reth-ubt-exex](https://github.com/igor53627/reth-ubt-exex) | Reth execution extension for UBT; plugs a UBT-backed state engine into Reth to evaluate EIP-7864 in a real client. |
-| [reth-ubt-migration](https://github.com/igor53627/reth-ubt-migration) | Migration tooling for UBT in Reth; utilities to convert existing Reth state to UBT and benchmark migration performance. |
+| Project | Description | Project | Description |
+|---------|-------------|---------|-------------|
+| [ubt-rs](https://github.com/igor53627/ubt-rs) | Rust UBT implementation; EIP-7864 data structure for Ethereum state. | [reth-ubt-exex](https://github.com/igor53627/reth-ubt-exex) | Reth exex for UBT; plugs UBT state engine into Reth. |
+| [reth-ubt-migration](https://github.com/igor53627/reth-ubt-migration) | Migration tooling; convert Reth state to UBT. | | |
 
 ## Private Information Retrieval (PIR)
 
-| Project | Description |
-|---------|-------------|
-| [plinko-extractor](https://github.com/igor53627/plinko-extractor) | Practical Rust implementation of the PLINKO PIR protocol with data extraction from Sepolia and hint generation; built to feed real-world PIR queries from on-chain Ethereum data. |
-| [plinko-research](https://github.com/igor53627/plinko-research) | Research and experiments on PLINKO PIR; prototypes, benchmarks, and design notes exploring latency/bandwidth trade-offs and deployment models. |
-| [inspire-rs](https://github.com/igor53627/inspire-rs) | Rust implementation of the INSPIRE PIR protocol; focuses on production-ready primitives and integration with Ethereum-style datasets. |
+| Project | Description | Project | Description |
+|---------|-------------|---------|-------------|
+| [plinko-extractor](https://github.com/igor53627/plinko-extractor) | PLINKO PIR with Sepolia extraction and hints. | [plinko-research](https://github.com/igor53627/plinko-research) | PLINKO research; prototypes and benchmarks. |
+| [inspire-rs](https://github.com/igor53627/inspire-rs) | INSPIRE PIR; production primitives for Ethereum. | | |
 
 ## TOR & Privacy Infrastructure
 
@@ -46,4 +44,4 @@
 | [orgmode](https://github.com/igor53627/orgmode) | Personal knowledge base; long-term research notes, design docs, and project planning in Emacs Org-mode. |
 | [blockscout-exex](https://github.com/igor53627/blockscout-exex) | Blockscout-compatible indexer as a Reth sidecar; consumes Reth execution data to power Blockscout without a separate indexing stack. |
 | [blockscout-proxy](https://github.com/igor53627/blockscout-proxy) | Caddy + Nodecore + TIG stack for Blockscout; production-oriented reverse proxy, logging, and observability layer for Blockscout deployments. |
-| [libmdbx-optimized](https://github.com/igor53627/libmdbx-optimized) | Fork of libmdbx with AVX2/NASM optimizations for AMD EPYC/Zen; performance tuning for high-throughput Ethereum state storage. |
+| [mdbx-rs](https://github.com/igor53627/mdbx-rs) | Fork of libmdbx with AVX2/NASM optimizations for AMD EPYC/Zen; performance tuning for high-throughput Ethereum state storage. |
