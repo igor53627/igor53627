@@ -2,17 +2,21 @@
 
 ## Unified Binary Trie (EIP-7864)
 
-| Project | Description | Project | Description |
-|---------|-------------|---------|-------------|
-| [ubt-rs](https://github.com/igor53627/ubt-rs) | Rust UBT implementation; EIP-7864 data structure for Ethereum state. | [reth-ubt-exex](https://github.com/igor53627/reth-ubt-exex) | Reth exex for UBT; plugs UBT state engine into Reth. |
-| [reth-ubt-migration](https://github.com/igor53627/reth-ubt-migration) | Migration tooling; convert Reth state to UBT. | | |
+| | |
+|---|---|
+| [ubt-rs](https://github.com/igor53627/ubt-rs) | [reth-ubt-exex](https://github.com/igor53627/reth-ubt-exex) |
+| Rust implementation of Unified Binary Trie; reference EIP-7864 data structure for efficient Ethereum state storage and migration experiments. | Reth execution extension for UBT; plugs a UBT-backed state engine into Reth to evaluate EIP-7864 in a real client. |
+| [reth-ubt-migration](https://github.com/igor53627/reth-ubt-migration) | |
+| Migration tooling for UBT in Reth; utilities to convert existing Reth state to UBT and benchmark migration performance. | |
 
 ## Private Information Retrieval (PIR)
 
-| Project | Description | Project | Description |
-|---------|-------------|---------|-------------|
-| [plinko-extractor](https://github.com/igor53627/plinko-extractor) | PLINKO PIR with Sepolia extraction and hints. | [plinko-research](https://github.com/igor53627/plinko-research) | PLINKO research; prototypes and benchmarks. |
-| [inspire-rs](https://github.com/igor53627/inspire-rs) | INSPIRE PIR; production primitives for Ethereum. | | |
+| | |
+|---|---|
+| [plinko-extractor](https://github.com/igor53627/plinko-extractor) | [plinko-research](https://github.com/igor53627/plinko-research) |
+| Practical Rust implementation of the PLINKO PIR protocol with data extraction from Sepolia and hint generation; built to feed real-world PIR queries from on-chain Ethereum data. | Research and experiments on PLINKO PIR; prototypes, benchmarks, and design notes exploring latency/bandwidth trade-offs and deployment models. |
+| [inspire-rs](https://github.com/igor53627/inspire-rs) | |
+| Rust implementation of the INSPIRE PIR protocol; focuses on production-ready primitives and integration with Ethereum-style datasets. | |
 
 ## TOR & Privacy Infrastructure
 
