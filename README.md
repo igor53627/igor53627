@@ -2,27 +2,23 @@
 
 <table>
 <tr>
-<td valign="top">
-
-### Unified Binary Trie (EIP-7864)
-
-| Project | Description |
-|---------|-------------|
-| [ubt-rs](https://github.com/igor53627/ubt-rs) | Rust implementation of Unified Binary Trie; reference EIP-7864 data structure for efficient Ethereum state storage and migration experiments. |
-| [reth-ubt-exex](https://github.com/igor53627/reth-ubt-exex) | Reth execution extension for UBT; plugs a UBT-backed state engine into Reth to evaluate EIP-7864 in a real client. |
-| [reth-ubt-migration](https://github.com/igor53627/reth-ubt-migration) | Migration tooling for UBT in Reth; utilities to convert existing Reth state to UBT and benchmark migration performance. |
-
+<td valign="top" width="50%">
+<h3>Unified Binary Trie (EIP-7864)</h3>
+<table>
+<tr><th>Project</th><th>Description</th></tr>
+<tr><td><a href="https://github.com/igor53627/ubt-rs">ubt-rs</a></td><td>Rust implementation of Unified Binary Trie; reference EIP-7864 data structure for efficient Ethereum state storage and migration experiments.</td></tr>
+<tr><td><a href="https://github.com/igor53627/reth-ubt-exex">reth-ubt-exex</a></td><td>Reth execution extension for UBT; plugs a UBT-backed state engine into Reth to evaluate EIP-7864 in a real client.</td></tr>
+<tr><td><a href="https://github.com/igor53627/reth-ubt-migration">reth-ubt-migration</a></td><td>Migration tooling for UBT in Reth; utilities to convert existing Reth state to UBT and benchmark migration performance.</td></tr>
+</table>
 </td>
-<td valign="top">
-
-### Private Information Retrieval (PIR)
-
-| Project | Description |
-|---------|-------------|
-| [plinko-extractor](https://github.com/igor53627/plinko-extractor) | Practical Rust implementation of the PLINKO PIR protocol with data extraction from Sepolia and hint generation; built to feed real-world PIR queries from on-chain Ethereum data. |
-| [plinko-research](https://github.com/igor53627/plinko-research) | Research and experiments on PLINKO PIR; prototypes, benchmarks, and design notes exploring latency/bandwidth trade-offs and deployment models. |
-| [inspire-rs](https://github.com/igor53627/inspire-rs) | Rust implementation of the INSPIRE PIR protocol; focuses on production-ready primitives and integration with Ethereum-style datasets. |
-
+<td valign="top" width="50%">
+<h3>Private Information Retrieval (PIR)</h3>
+<table>
+<tr><th>Project</th><th>Description</th></tr>
+<tr><td><a href="https://github.com/igor53627/plinko-extractor">plinko-extractor</a></td><td>Practical Rust implementation of the PLINKO PIR protocol with data extraction from Sepolia and hint generation; built to feed real-world PIR queries from on-chain Ethereum data.</td></tr>
+<tr><td><a href="https://github.com/igor53627/plinko-research">plinko-research</a></td><td>Research and experiments on PLINKO PIR; prototypes, benchmarks, and design notes exploring latency/bandwidth trade-offs and deployment models.</td></tr>
+<tr><td><a href="https://github.com/igor53627/inspire-rs">inspire-rs</a></td><td>Rust implementation of the INSPIRE PIR protocol; focuses on production-ready primitives and integration with Ethereum-style datasets.</td></tr>
+</table>
 </td>
 </tr>
 </table>
