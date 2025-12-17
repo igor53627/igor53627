@@ -1,6 +1,6 @@
 *Here is a table of contents since pin functionality is quite basic when there are many projects; scroll categories and projects or use 搜索*
 
-### Unified Binary Trie (EIP-7864)
+### Research on Ethereum Execution Client (UBT can be expanded here)
 
 | Project | Description |
 |---------|-------------|
@@ -8,7 +8,7 @@
 | [reth-ubt-exex](https://github.com/igor53627/reth-ubt-exex) | Reth execution extension for UBT; plugs a UBT-backed state engine into Reth to evaluate EIP-7864 in a real client. |
 | [reth-ubt-migration](https://github.com/igor53627/reth-ubt-migration) | Migration tooling for UBT in Reth; utilities to convert existing Reth state to UBT and benchmark migration performance. |
 | [mdbx-rs-releases](https://github.com/igor53627/mdbx-rs-releases) | MDBX releases for UBT; pre-built binaries and release artifacts for the Rust MDBX implementation. |
-| [pse](https://github.com/igor53627/pse) | [private] Pre-alpha UBT research; experimental protocol and state engine explorations before public release. |
+| [pse](https://github.com/igor53627/pse) | [private] Privacy and scaling oriented fork of Reth. |
 
 ### Private Information Retrieval (PIR)
 
