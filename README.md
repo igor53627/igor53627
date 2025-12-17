@@ -36,7 +36,7 @@
 |---------|-------------|
 | [iconregistry.eth](https://github.com/igor53627/iconregistry.eth) | Icon registry smart contract; on-chain mapping for asset/contract icons to improve UX for wallets, explorers, and dapps. |
 | [evm-glue](https://github.com/igor53627/evm-glue) | Fork of EVM Glue with optimization for Fusaka; tuned for performance and experimentation with custom EVM backends. |
-| [voidgun](https://github.com/igor53627/voidgun) | Privacy-via-proxy architecture for Ethereum. Transact privately from any multi-chain wallet. |
+| [voidgun](https://github.com/igor53627/voidgun) | Drop-in RPC privacy for Ethereum. Proxy architecture that turns existing multi-chain wallets into private transaction endpoints. |
 
 ### Private
 
