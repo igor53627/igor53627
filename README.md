@@ -7,6 +7,8 @@
 | [ubt-rs](https://github.com/igor53627/ubt-rs) | Rust implementation of Unified Binary Trie; reference EIP-7864 data structure for efficient Ethereum state storage and migration experiments. |
 | [reth-ubt-exex](https://github.com/igor53627/reth-ubt-exex) | Reth execution extension for UBT; plugs a UBT-backed state engine into Reth to evaluate EIP-7864 in a real client. |
 | [reth-ubt-migration](https://github.com/igor53627/reth-ubt-migration) | Migration tooling for UBT in Reth; utilities to convert existing Reth state to UBT and benchmark migration performance. |
+| [mdbx-rs-releases](https://github.com/igor53627/mdbx-rs-releases) | MDBX releases for UBT; pre-built binaries and release artifacts for the Rust MDBX implementation. |
+| [pse](https://github.com/igor53627/pse) | [private] Pre-alpha UBT research; experimental protocol and state engine explorations before public release. |
 
 ### Private Information Retrieval (PIR)
 
@@ -15,6 +17,7 @@
 | [plinko-extractor](https://github.com/igor53627/plinko-extractor) | Practical Rust implementation of the PLINKO PIR protocol with data extraction from Sepolia and hint generation; built to feed real-world PIR queries from on-chain Ethereum data. |
 | [plinko-research](https://github.com/igor53627/plinko-research) | Research and experiments on PLINKO PIR; prototypes, benchmarks, and design notes exploring latency/bandwidth trade-offs and deployment models. |
 | [inspire-rs](https://github.com/igor53627/inspire-rs) | Rust implementation of the INSPIRE PIR protocol; focuses on production-ready primitives and integration with Ethereum-style datasets. |
+| [pse-pir-exex](https://github.com/igor53627/pse-pir-exex) | PIR integration for smart contracts; Reth execution extension enabling PIR queries against on-chain state. |
 
 ### TOR & Privacy Infrastructure
 
@@ -33,6 +36,7 @@
 |---------|-------------|
 | [iconregistry.eth](https://github.com/igor53627/iconregistry.eth) | Icon registry smart contract; on-chain mapping for asset/contract icons to improve UX for wallets, explorers, and dapps. |
 | [evm-glue](https://github.com/igor53627/evm-glue) | Fork of EVM Glue with optimization for Fusaka; tuned for performance and experimentation with custom EVM backends. |
+| [voidgun](https://github.com/igor53627/voidgun) | PIR-enabled smart contract infrastructure; privacy-preserving contract interactions using Private Information Retrieval. |
 
 ### Private
 
@@ -47,3 +51,4 @@
 | [blockscout-exex](https://github.com/igor53627/blockscout-exex) | Blockscout-compatible indexer as a Reth sidecar; consumes Reth execution data to power Blockscout without a separate indexing stack. |
 | [blockscout-proxy](https://github.com/igor53627/blockscout-proxy) | Caddy + Nodecore + TIG stack for Blockscout; production-oriented reverse proxy, logging, and observability layer for Blockscout deployments. |
 | [mdbx-rs](https://github.com/igor53627/mdbx-rs) | A pure Rust implementation of libmdbx, an extremely fast, compact, and powerful embedded transactional key-value database |
+| [fast-frontend](https://github.com/igor53627/fast-frontend) | High-performance frontend framework; optimized UI rendering for blockchain applications. |
