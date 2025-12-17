@@ -17,7 +17,7 @@
 | [plinko-extractor](https://github.com/igor53627/plinko-extractor) | Practical Rust implementation of the PLINKO PIR protocol with data extraction from Sepolia and hint generation; built to feed real-world PIR queries from on-chain Ethereum data. |
 | [plinko-research](https://github.com/igor53627/plinko-research) | Research and experiments on PLINKO PIR; prototypes, benchmarks, and design notes exploring latency/bandwidth trade-offs and deployment models. |
 | [inspire-rs](https://github.com/igor53627/inspire-rs) | Rust implementation of the INSPIRE PIR protocol; focuses on production-ready primitives and integration with Ethereum-style datasets. |
-| [pse-pir-exex](https://github.com/igor53627/pse-pir-exex) | PIR integration for smart contracts; Reth execution extension enabling PIR queries against on-chain state. |
+| [pse-pir-exex](https://github.com/igor53627/pse-pir-exex) | Two-Lane InsPIRe PIR for private Ethereum state queries with honest-but-curious server ^_^ |
 
 ### TOR & Privacy Infrastructure
 
