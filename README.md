@@ -17,7 +17,14 @@
 | [plinko-extractor](https://github.com/igor53627/plinko-extractor) | Practical Rust implementation of the PLINKO PIR protocol with data extraction from Sepolia and hint generation; built to feed real-world PIR queries from on-chain Ethereum data. |
 | [plinko-research](https://github.com/igor53627/plinko-research) | Research and experiments on PLINKO PIR; prototypes, benchmarks, and design notes exploring latency/bandwidth trade-offs and deployment models. |
 | [inspire-rs](https://github.com/igor53627/inspire-rs) | Rust implementation of the INSPIRE PIR protocol; focuses on production-ready primitives and integration with Ethereum-style datasets. |
-| [pse-pir-exex](https://github.com/igor53627/pse-pir-exex) | Two-Lane InsPIRe PIR for private Ethereum state queries with honest-but-curious server ^_^ |
+| [pse-inspire-exex](https://github.com/igor53627/pse-inspire-exex) | Two-Lane InsPIRe PIR for private Ethereum state queries with honest-but-curious server ^_^ |
+
+### Indistinguishability Obfuscation (iO)
+
+| Project | Description |
+|---------|-------------|
+| [ma-dai-shi-io](https://github.com/igor53627/ma-dai-shi-io) | Honeypot for Ma-Da-Shi Quasi-linear indistinguishability obfuscation from evasive LWE (Ma-Dai-Shi 2025). |
+| [circuit-mixing-research](https://github.com/igor53627/circuit-mixing-research) | Experimental lab for understanding how far we can push pure circuit mixing (without heavy cryptography) against compression and structural attacks. |
 
 ### TOR & Privacy Infrastructure
 
