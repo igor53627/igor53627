@@ -8,16 +8,16 @@
 | [reth-ubt-exex](https://github.com/igor53627/reth-ubt-exex) | Reth execution extension for UBT; plugs a UBT-backed state engine into Reth to evaluate EIP-7864 in a real client. |
 | [reth-ubt-migration](https://github.com/igor53627/reth-ubt-migration) | Migration tooling for UBT in Reth; utilities to convert existing Reth state to UBT and benchmark migration performance. |
 | [mdbx-rs-releases](https://github.com/igor53627/mdbx-rs-releases) | MDBX releases for UBT; pre-built binaries and release artifacts for the Rust MDBX implementation. |
-| [pse](https://github.com/igor53627/pse) | [private] Privacy and scaling oriented fork of Reth. |
+| [reth-pse](https://github.com/igor53627/reth-pse) | [private] Privacy and scaling oriented fork of Reth. |
 
 ### Private Information Retrieval (PIR)
 
 | Project | Description |
 |---------|-------------|
-| [plinko-extractor](https://github.com/igor53627/plinko-extractor) | Practical Rust implementation of the PLINKO PIR protocol with data extraction from Sepolia and hint generation; built to feed real-world PIR queries from on-chain Ethereum data. |
+| [plinko-rs](https://github.com/igor53627/plinko-rs) | Practical Rust implementation of the PLINKO PIR protocol with data extraction from Sepolia and hint generation; built to feed real-world PIR queries from on-chain Ethereum data. |
 | [plinko-research](https://github.com/igor53627/plinko-research) | Research and experiments on PLINKO PIR; prototypes, benchmarks, and design notes exploring latency/bandwidth trade-offs and deployment models. |
 | [inspire-rs](https://github.com/igor53627/inspire-rs) | Rust implementation of the INSPIRE PIR protocol; focuses on production-ready primitives and integration with Ethereum-style datasets. |
-| [pse-inspire-exex](https://github.com/igor53627/pse-inspire-exex) | Two-Lane InsPIRe PIR for private Ethereum state queries with honest-but-curious server ^_^ |
+| [inspire-exex](https://github.com/igor53627/inspire-exex) | Two-Lane InsPIRe PIR for private Ethereum state queries with honest-but-curious server ^_^ |
 
 ### Indistinguishability Obfuscation (iO)
 
@@ -55,7 +55,7 @@
 | [reth-relay](https://github.com/igor53627/reth-relay) | Privacy-focused P2P relay for reth with Tor/I2P support. |
 | [amp-config](https://github.com/igor53627/amp-config) | Global config for Amp; personal workspace, presets, and automation for AI-assisted development. |
 | [orgmode](https://github.com/igor53627/orgmode) | Personal knowledge base; long-term research notes, design docs, and project planning in Emacs Org-mode. |
-| [blockscout-exex](https://github.com/igor53627/blockscout-exex) | Blockscout-compatible indexer as a Reth sidecar; consumes Reth execution data to power Blockscout without a separate indexing stack. |
+| [ex-exex](https://github.com/igor53627/ex-exex) | Blockscout-compatible indexer as a Reth sidecar; consumes Reth execution data to power Blockscout without a separate indexing stack. |
 | [blockscout-proxy](https://github.com/igor53627/blockscout-proxy) | Caddy + Nodecore + TIG stack for Blockscout; production-oriented reverse proxy, logging, and observability layer for Blockscout deployments. |
 | [mdbx-rs](https://github.com/igor53627/mdbx-rs) | A pure Rust implementation of libmdbx, an extremely fast, compact, and powerful embedded transactional key-value database |
 | [fast-frontend](https://github.com/igor53627/fast-frontend) | High-performance frontend framework; optimized UI rendering for blockchain applications. |
