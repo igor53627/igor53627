@@ -5,7 +5,7 @@
 | Project | Description |
 |---------|-------------|
 | [ubt-rs](https://github.com/igor53627/ubt-rs) | Rust implementation of Unified Binary Trie; reference EIP-7864 data structure for efficient Ethereum state storage and migration experiments. |
-| [reth-ubt-exex](https://github.com/igor53627/reth-ubt-exex) | Reth execution extension for UBT; plugs a UBT-backed state engine into Reth to evaluate EIP-7864 in a real client. |
+| [ubt-exex](https://github.com/igor53627/ubt-exex) | Reth execution extension for UBT; plugs a UBT-backed state engine into Reth to evaluate EIP-7864 in a real client. |
 | [reth-ubt-migration](https://github.com/igor53627/reth-ubt-migration) | Migration tooling for UBT in Reth; utilities to convert existing Reth state to UBT and benchmark migration performance. |
 | [mdbx-rs-releases](https://github.com/igor53627/mdbx-rs-releases) | MDBX releases for UBT; pre-built binaries and release artifacts for the Rust MDBX implementation. |
 | [reth-pse](https://github.com/igor53627/reth-pse) | [private] Privacy and scaling oriented fork of Reth. |
