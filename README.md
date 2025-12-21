@@ -32,7 +32,6 @@
 |---------|-------------|
 | [tor-ethereum-ecosystem](https://github.com/igor53627/tor-ethereum-ecosystem) | Ethereum ecosystem tools accessible over TOR; curated configs and examples for running RPCs, explorers, and infra as Tor onion services. |
 | [webtor-rs](https://github.com/igor53627/webtor-rs) | Rust library for TOR web services; simplifies exposing HTTP APIs as onion services and managing Tor integration in Rust backends. |
-| [kohaku](https://github.com/igor53627/kohaku) | Example integration for webtor-rs; demonstrates how to turn an existing Rust web service into a Tor-native application. |
 | [onion-service-monitor](https://github.com/igor53627/onion-service-monitor) | Monitoring tool for onion services; tracks uptime, reachability, and health of Tor endpoints used by privacy-focused infrastructure. |
 | [blockscout-onion](https://github.com/igor53627/blockscout-onion) | Blockscout blockchain explorer over TOR; packages a full Blockscout stack behind an onion service for censorship-resistant chain analytics. |
 | [gethrelay](https://github.com/igor53627/gethrelay) | Geth relay service for TOR; enables Ethereum node communication over the Tor network. |
