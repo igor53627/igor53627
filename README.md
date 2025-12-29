@@ -23,7 +23,8 @@
 
 | Project | Description |
 |---------|-------------|
-| [tlo](https://github.com/igor53627/tlo) | TLO: Topology-Lattice Obfuscation for Smart Contracts |
+| [larc](https://github.com/igor53627/larc) | LARC: LWE-Activated Reversible Contracts - On-chain compute-and-compare with true LWE security (~108-bit, 2.58M gas). |
+| [tlo](https://github.com/igor53627/tlo) | [archived] TLO: Topology-Lattice Obfuscation - superseded by LARC (topology adds no on-chain security). |
 | [ma-dai-shi-io](https://github.com/igor53627/ma-dai-shi-io) | Honeypot for Ma-Da-Shi Quasi-linear indistinguishability obfuscation from evasive LWE (Ma-Dai-Shi 2025). |
 | [circuit-mixing-research](https://github.com/igor53627/circuit-mixing-research) | [private] Experimental lab for understanding how far we can push pure circuit mixing (without heavy cryptography) against compression and structural attacks. |
 
