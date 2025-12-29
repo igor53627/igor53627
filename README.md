@@ -19,7 +19,7 @@
 | [inspire-rs](https://github.com/igor53627/inspire-rs) | Rust implementation of the INSPIRE PIR protocol; focuses on production-ready primitives and integration with Ethereum-style datasets. |
 | [inspire-exex](https://github.com/igor53627/inspire-exex) | Two-Lane InsPIRe PIR for private Ethereum state queries with honest-but-curious server ^_^ |
 
-### Indistinguishability Obfuscation (iO)
+### Obfuscation
 
 | Project | Description |
 |---------|-------------|
