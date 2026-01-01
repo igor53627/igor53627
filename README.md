@@ -23,6 +23,7 @@
 
 | Project | Description |
 |---------|-------------|
+| [tlos](https://github.com/igor53627/tlos) | TLOS: Topology-Lattice Obfuscation for Smart Contracts |
 | [larc](https://github.com/igor53627/larc) | [archived] LARC: LWE-Activated Reversible Contracts - functionally equivalent to symmetric encryption; use commit-reveal instead (see [a16z/auction-zoo](https://github.com/a16z/auction-zoo)). |
 | [tlo](https://github.com/igor53627/tlo) | [archived] TLO: Topology-Lattice Obfuscation - superseded by LARC (topology adds no on-chain security). |
 | [ma-dai-shi-io](https://github.com/igor53627/ma-dai-shi-io) | Honeypot for Ma-Da-Shi Quasi-linear indistinguishability obfuscation from evasive LWE (Ma-Dai-Shi 2025). |
@@ -42,9 +43,13 @@
 
 | Project | Description |
 |---------|-------------|
+| [ipfe.sol](https://github.com/igor53627/ipfe.sol) | IPFE.sol: Inner Product Functional Encryption for EVM using bn256 precompiles |
+| [fair.sol](https://github.com/igor53627/fair.sol) | Fair.sol: Stablecoin with PoA ≈ 1.0 — fair liquidation mechanism that eliminates front-running and value extraction |
+| [liq](https://github.com/igor53627/liq) | LIQ Flash Mint: Ultra Gas-Optimized ERC-3156 Flash Loans |
 | [iconregistry.eth](https://github.com/igor53627/iconregistry.eth) | Icon registry smart contract; on-chain mapping for asset/contract icons to improve UX for wallets, explorers, and dapps. |
 | [evm-glue](https://github.com/igor53627/evm-glue) | Fork of EVM Glue with optimization for Fusaka; tuned for performance and experimentation with custom EVM backends. |
 | [voidgun](https://github.com/igor53627/voidgun) | Drop-in RPC privacy for Ethereum. Proxy architecture that turns existing multi-chain wallets into private transaction endpoints. |
+| [yolo](https://github.com/igor53627/yolo) | [private] Privacy-preserving yield-bearing stablecoin on Ethereum L1; explores fully collateralized stablecoin design with hidden balances and flows. |
 
 ### Private
 
@@ -52,7 +57,6 @@
 
 | Project | Description |
 |---------|-------------|
-| [yolo](https://github.com/igor53627/yolo) | Privacy-preserving yield-bearing stablecoin on Ethereum L1; explores fully collateralized stablecoin design with hidden balances and flows. |
 | [reth-relay](https://github.com/igor53627/reth-relay) | Privacy-focused P2P relay for reth with Tor/I2P support. |
 | [amp-config](https://github.com/igor53627/amp-config) | Global config for Amp; personal workspace, presets, and automation for AI-assisted development. |
 | [orgmode](https://github.com/igor53627/orgmode) | Personal knowledge base; long-term research notes, design docs, and project planning in Emacs Org-mode. |
