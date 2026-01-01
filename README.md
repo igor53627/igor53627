@@ -9,6 +9,7 @@
 | [reth-ubt-migration](https://github.com/igor53627/reth-ubt-migration) | Migration tooling for UBT in Reth; utilities to convert existing Reth state to UBT and benchmark migration performance. |
 | [mdbx-rs-releases](https://github.com/igor53627/mdbx-rs-releases) | MDBX releases for UBT; pre-built binaries and release artifacts for the Rust MDBX implementation. |
 | [reth-pse](https://github.com/igor53627/reth-pse) | [private] Privacy and scaling oriented fork of Reth. |
+| [mdbx-rs](https://github.com/igor53627/mdbx-rs) | [private] A pure Rust implementation of libmdbx, an extremely fast, compact, and powerful embedded transactional key-value database |
 
 ### Private Information Retrieval (PIR)
 
@@ -62,5 +63,4 @@
 | [orgmode](https://github.com/igor53627/orgmode) | Personal knowledge base; long-term research notes, design docs, and project planning in Emacs Org-mode. |
 | [ex-exex](https://github.com/igor53627/ex-exex) | Blockscout-compatible indexer as a Reth sidecar; consumes Reth execution data to power Blockscout without a separate indexing stack. |
 | [blockscout-proxy](https://github.com/igor53627/blockscout-proxy) | Caddy + Nodecore + TIG stack for Blockscout; production-oriented reverse proxy, logging, and observability layer for Blockscout deployments. |
-| [mdbx-rs](https://github.com/igor53627/mdbx-rs) | A pure Rust implementation of libmdbx, an extremely fast, compact, and powerful embedded transactional key-value database |
 | [fast-frontend](https://github.com/igor53627/fast-frontend) | High-performance frontend framework; optimized UI rendering for blockchain applications. |
