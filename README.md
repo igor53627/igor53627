@@ -21,7 +21,7 @@
 
 | Project | Description |
 |---------|-------------|
-| [tlos](https://github.com/igor53627/tlos) | Practical circuit obfuscation for EVM; four-layer security (topology, LWE, wire binding, puzzle) protects low-entropy secrets on-chain. |
+| [tlos](https://github.com/igor53627/tlos) | Practical circuit obfuscation for EVM; four-layer security (topology, LWE, wire binding, puzzle) protects low-entropy secrets on-chain. ~3.3M gas for 128 gates, 99.6% storage reduction. Enables password-gated vaults, sealed-bid auctions, and on-chain treasure hunts. |
 | [ma-dai-shi-io](https://github.com/igor53627/ma-dai-shi-io) | Quasi-linear iO implementation (Ma-Dai-Shi 2025); Rust library, Lean 4 proofs, and on-chain seed phrase challenge demo. |
 
 ### Tor & Privacy Infrastructure
