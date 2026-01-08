@@ -25,7 +25,6 @@
 |---------|-------------|
 | [tlos](https://github.com/igor53627/tlos) | TLOS: Topology-Lattice Obfuscation for Smart Contracts |
 | [ma-dai-shi-io](https://github.com/igor53627/ma-dai-shi-io) | Honeypot for Ma-Da-Shi Quasi-linear indistinguishability obfuscation from evasive LWE (Ma-Dai-Shi 2025). |
-| [circuit-mixing-research](https://github.com/igor53627/circuit-mixing-research) | [private] Experimental lab for understanding how far we can push pure circuit mixing (without heavy cryptography) against compression and structural attacks. |
 
 ### TOR & Privacy Infrastructure
 
@@ -47,7 +46,6 @@
 | [iconregistry.eth](https://github.com/igor53627/iconregistry.eth) | Icon registry smart contract; on-chain mapping for asset/contract icons to improve UX for wallets, explorers, and dapps. |
 | [evm-glue](https://github.com/igor53627/evm-glue) | Fork of EVM Glue with optimization for Fusaka; tuned for performance and experimentation with custom EVM backends. |
 | [voidgun](https://github.com/igor53627/voidgun) | Drop-in RPC privacy for Ethereum. Proxy architecture that turns existing multi-chain wallets into private transaction endpoints. |
-| [yolo](https://github.com/igor53627/yolo) | [private] Privacy-preserving yield-bearing stablecoin on Ethereum L1; explores fully collateralized stablecoin design with hidden balances and flows. |
 
 ### Private
 
@@ -55,6 +53,8 @@
 
 | Project | Description |
 |---------|-------------|
+| [circuit-mixing-research](https://github.com/igor53627/circuit-mixing-research) | Experimental lab for understanding how far we can push pure circuit mixing (without heavy cryptography) against compression and structural attacks. |
+| [yolo](https://github.com/igor53627/yolo) | Privacy-preserving yield-bearing stablecoin on Ethereum L1; explores fully collateralized stablecoin design with hidden balances and flows. |
 | [reth-relay](https://github.com/igor53627/reth-relay) | Privacy-focused P2P relay for reth with Tor/I2P support. |
 | [amp-config](https://github.com/igor53627/amp-config) | Global config for Amp; personal workspace, presets, and automation for AI-assisted development. |
 | [orgmode](https://github.com/igor53627/orgmode) | Personal knowledge base; long-term research notes, design docs, and project planning in Emacs Org-mode. |
