@@ -1,5 +1,3 @@
-*Here is a table of contents since pin functionality is quite basic when there are many projects; scroll categories and projects or use 搜索*
-
 ### Research on Ethereum Execution Client
 
 | Project | Description |
