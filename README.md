@@ -7,9 +7,8 @@
 | [ubt-rs](https://github.com/igor53627/ubt-rs) | Rust implementation of Unified Binary Trie; reference EIP-7864 data structure for efficient Ethereum state storage and migration experiments. |
 | [ubt-exex](https://github.com/igor53627/ubt-exex) | Reth execution extension for UBT; plugs a UBT-backed state engine into Reth to evaluate EIP-7864 in a real client. |
 | [reth-ubt-migration](https://github.com/igor53627/reth-ubt-migration) | Migration tooling for UBT in Reth; utilities to convert existing Reth state to UBT and benchmark migration performance. |
-| [mdbx-rs-releases](https://github.com/igor53627/mdbx-rs-releases) | MDBX releases for UBT; pre-built binaries and release artifacts for the Rust MDBX implementation. |
-| [reth-pse](https://github.com/igor53627/reth-pse) | [private] Privacy and scaling oriented fork of Reth. |
-| [mdbx-rs](https://github.com/igor53627/mdbx-rs) | [private] A pure Rust implementation of libmdbx, an extremely fast, compact, and powerful embedded transactional key-value database |
+| [mdbx-rs-releases](https://github.com/igor53627/mdbx-rs-releases) | Prebuilt static and dynamic libraries for mdbx-rs; Linux x86_64 and macOS ARM64 binaries. |
+| [mdbx-rs](https://github.com/igor53627/mdbx-rs) | [alpha] Pure Rust implementation of libmdbx; zero C dependencies, binary-compatible with existing libmdbx databases. Not for production use. |
 
 ### Private Information Retrieval (PIR)
 
@@ -25,8 +24,6 @@
 | Project | Description |
 |---------|-------------|
 | [tlos](https://github.com/igor53627/tlos) | TLOS: Topology-Lattice Obfuscation for Smart Contracts |
-| [larc](https://github.com/igor53627/larc) | [archived] LARC: LWE-Activated Reversible Contracts - functionally equivalent to symmetric encryption; use commit-reveal instead (see [a16z/auction-zoo](https://github.com/a16z/auction-zoo)). |
-| [tlo](https://github.com/igor53627/tlo) | [archived] TLO: Topology-Lattice Obfuscation - superseded by LARC (topology adds no on-chain security). |
 | [ma-dai-shi-io](https://github.com/igor53627/ma-dai-shi-io) | Honeypot for Ma-Da-Shi Quasi-linear indistinguishability obfuscation from evasive LWE (Ma-Dai-Shi 2025). |
 | [circuit-mixing-research](https://github.com/igor53627/circuit-mixing-research) | [private] Experimental lab for understanding how far we can push pure circuit mixing (without heavy cryptography) against compression and structural attacks. |
 
