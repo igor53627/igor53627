@@ -189,10 +189,12 @@
       <td>Blockscout-compatible indexer as a Reth sidecar; consumes Reth execution data to power Blockscout without a separate indexing stack.</td>
     </tr>
     -->
+    <!--
     <tr>
       <td nowrap><a href="https://github.com/igor53627/blockscout-proxy">blockscout-proxy</a></td>
       <td>Caddy + Nodecore + TIG stack for Blockscout; production-oriented reverse proxy, logging, and observability layer for Blockscout deployments.</td>
     </tr>
+    -->
     <!--
     <tr>
       <td nowrap><a href="https://github.com/igor53627/fast-frontend">fast-frontend</a></td>
