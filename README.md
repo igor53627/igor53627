@@ -61,6 +61,14 @@
       <td nowrap><a href="https://github.com/igor53627/inspire-exex">inspire-exex</a></td>
       <td>Two-Lane InsPIRe PIR for private Ethereum state queries with honest-but-curious server.</td>
     </tr>
+    <tr>
+      <td nowrap><a href="https://github.com/igor53627/morphogenesis">morphogenesis</a></td>
+      <td>A new 2-server GPU accelerated DPF-PIR for the full Ethereum state.</td>
+    </tr>
+    <tr>
+      <td nowrap><a href="https://github.com/igor53627/rms24-rs">rms24-rs</a></td>
+      <td>RMS24 single-server PIR in Rust with optional CUDA acceleration and KeywordPIR benchmarking.</td>
+    </tr>
   </tbody>
 </table>
 
