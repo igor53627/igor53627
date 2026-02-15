@@ -154,6 +154,14 @@
       <td nowrap><a href="https://github.com/igor53627/iconregistry.eth">iconregistry.eth</a></td>
       <td>Icon registry smart contract; on-chain mapping for asset/contract icons to improve UX for wallets, explorers, and dapps.</td>
     </tr>
+    <tr>
+      <td nowrap><a href="https://github.com/igor53627/evm-mhf">evm-mhf</a></td>
+      <td>EVM-native memory-hard function primitive.</td>
+    </tr>
+    <tr>
+      <td nowrap><a href="https://github.com/igor53627/evm-lattice-pow">evm-lattice-pow</a></td>
+      <td>Lattice-based proof-of-work experiments for the EVM.</td>
+    </tr>
     <!--
     <tr>
       <td nowrap><a href="https://github.com/igor53627/evm-glue">evm-glue</a></td>
