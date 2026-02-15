@@ -160,7 +160,7 @@
     </tr>
     <tr>
       <td nowrap><a href="https://github.com/igor53627/evm-lattice-pow">evm-lattice-pow</a></td>
-      <td>Lattice-based proof-of-work experiments for the EVM.</td>
+      <td>Standalone LatticePoW challenge primitive for EVM.</td>
     </tr>
     <!--
     <tr>
