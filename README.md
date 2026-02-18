@@ -84,7 +84,11 @@
   <tbody>
     <tr>
       <td nowrap><a href="https://github.com/igor53627/tlos">tlos</a></td>
-      <td>Topology-Lattice Obfuscation for Smart Contracts; four-layer security (topology, LWE, wire binding, puzzle) protects low-entropy secrets on-chain. Enables password-gated vaults, sealed-bid auctions, and on-chain treasure hunts.</td>
+      <td>Topology-Lattice Obfuscation for Smart Contracts; three-layer core (topology, LWE, wire binding) for hidden policy evaluation on-chain. Composable with standalone EVM cryptographic primitives.</td>
+    </tr>
+    <tr>
+      <td nowrap><a href="https://github.com/igor53627/lwe-jump-table">lwe-jump-table</a></td>
+      <td>LWE-based control flow flattening for EVM; encrypts branch destinations in LWE ciphertexts for on-chain strategy obfuscation (n=768, q=4096, ~130-bit PQ security).</td>
     </tr>
     <tr>
       <td nowrap><a href="https://github.com/igor53627/ma-dai-shi-io">ma-dai-shi-io</a></td>
@@ -153,6 +157,14 @@
     <tr>
       <td nowrap><a href="https://github.com/igor53627/iconregistry.eth">iconregistry.eth</a></td>
       <td>Icon registry smart contract; on-chain mapping for asset/contract icons to improve UX for wallets, explorers, and dapps.</td>
+    </tr>
+    <tr>
+      <td nowrap><a href="https://github.com/igor53627/evm-lwe-math">evm-lwe-math</a></td>
+      <td>Gas-optimized LWE inner-product primitives for on-chain lattice cryptography; supports both prime and power-of-2 moduli.</td>
+    </tr>
+    <tr>
+      <td nowrap><a href="https://github.com/igor53627/evm-linear-accumulator">evm-linear-accumulator</a></td>
+      <td>Seed-derived linear hash accumulator over Z_q for trace integrity, state accumulators, and fraud proofs.</td>
     </tr>
     <tr>
       <td nowrap><a href="https://github.com/igor53627/evm-mhf">evm-mhf</a></td>
