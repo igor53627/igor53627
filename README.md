@@ -83,10 +83,6 @@
   </thead>
   <tbody>
     <tr>
-      <td nowrap><a href="https://github.com/igor53627/tlos">tlos</a></td>
-      <td>Topology-Lattice Obfuscation for Smart Contracts; three-layer core (topology, LWE, wire binding) for hidden policy evaluation on-chain. Composable with standalone EVM cryptographic primitives.</td>
-    </tr>
-    <tr>
       <td nowrap><a href="https://github.com/igor53627/lwe-jump-table">lwe-jump-table</a></td>
       <td>LWE-based control flow flattening for EVM; encrypts branch destinations in LWE ciphertexts for on-chain strategy obfuscation (n=768, q=4096, ~130-bit PQ security).</td>
     </tr>
