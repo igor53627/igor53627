@@ -80,27 +80,6 @@ Research and implementations across private information retrieval, lattice crypt
   </tbody>
 </table>
 
-### Obfuscation
-
-<table>
-  <thead>
-    <tr>
-      <th align="left">Project</th>
-      <th align="left">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td nowrap><a href="https://github.com/igor53627/lwe-jump-table">lwe-jump-table</a></td>
-      <td>LWE-based control-flow flattening for the EVM; encrypts branch destinations as LWE ciphertexts for on-chain strategy obfuscation (n=768, q=4096, ~130-bit PQ security).</td>
-    </tr>
-    <tr>
-      <td nowrap><a href="https://github.com/igor53627/ma-dai-shi-io">ma-dai-shi-io</a></td>
-      <td>Quasi-linear iO (Ma–Dai–Shi 2025): Rust library, Lean 4 proofs, and an on-chain seed-phrase challenge demo.</td>
-    </tr>
-  </tbody>
-</table>
-
 ### Tor & Privacy Infrastructure
 
 <table>
@@ -181,6 +160,14 @@ Research and implementations across private information retrieval, lattice crypt
     <tr>
       <td nowrap><a href="https://github.com/igor53627/evm-regev">evm-regev</a></td>
       <td>Additively homomorphic Regev (LWE) encryption for the EVM; cheapest-by-gas additive HE, plausibly post-quantum, for aggregate-reveal apps (hidden tallies, sealed bids, game scores).</td>
+    </tr>
+    <tr>
+      <td nowrap><a href="https://github.com/igor53627/lwe-jump-table">lwe-jump-table</a></td>
+      <td>LWE-based control-flow flattening for the EVM; encrypts branch destinations as LWE ciphertexts for on-chain strategy obfuscation (n=768, q=4096, ~130-bit PQ security).</td>
+    </tr>
+    <tr>
+      <td nowrap><a href="https://github.com/igor53627/ma-dai-shi-io">ma-dai-shi-io</a></td>
+      <td>Quasi-linear iO (Ma–Dai–Shi 2025): Rust library, Lean 4 proofs, and an on-chain seed-phrase challenge demo.</td>
     </tr>
     <!--
     <tr>
