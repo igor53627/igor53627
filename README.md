@@ -170,6 +170,10 @@
       <td nowrap><a href="https://github.com/igor53627/evm-lattice-pow">evm-lattice-pow</a></td>
       <td>Standalone LatticePoW challenge primitive for EVM.</td>
     </tr>
+    <tr>
+      <td nowrap><a href="https://github.com/igor53627/evm-regev">evm-regev</a></td>
+      <td>Additively homomorphic Regev (LWE) encryption for the EVM; cheapest-by-gas additive HE, plausibly post-quantum, for aggregate-reveal apps (hidden tallies, sealed bids, game scores).</td>
+    </tr>
     <!--
     <tr>
       <td nowrap><a href="https://github.com/igor53627/evm-glue">evm-glue</a></td>
