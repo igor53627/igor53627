@@ -1,6 +1,6 @@
 ## Privacy & cryptography research for Ethereum
 
-Research and implementations across private information retrieval, lattice cryptography, obfuscation, and Tor-based infrastructure.
+Implementations across private information retrieval, lattice cryptography, obfuscation, and Tor-based infrastructure.
 
 > **Note** — these are research projects, much of the code AI-assisted. Not security-audited and not intended for production use without independent review.
 
