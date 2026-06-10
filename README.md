@@ -1,3 +1,11 @@
+## Privacy & cryptography for Ethereum
+
+Research and implementations across private information retrieval, lattice cryptography, obfuscation, and Tor-based infrastructure.
+
+> **Note** — these are research projects, much of the code AI-assisted. Not security-audited and not intended for production use without independent review.
+
+---
+
 ### Research on Ethereum Execution Client
 
 <table>
@@ -10,11 +18,11 @@
   <tbody>
     <tr>
       <td nowrap><a href="https://github.com/igor53627/ubt-rs">ubt-rs</a></td>
-      <td>Rust implementation of Unified Binary Trie; reference EIP-7864 data structure for efficient Ethereum state storage and migration experiments.</td>
+      <td>Rust implementation of the Unified Binary Trie (EIP-7864) — a reference state-tree structure for efficient Ethereum state storage and migration experiments.</td>
     </tr>
     <tr>
       <td nowrap><a href="https://github.com/igor53627/ubt-exex">ubt-exex</a></td>
-      <td>Reth execution extension for UBT; plugs a UBT-backed state engine into Reth to evaluate EIP-7864 in a real client.</td>
+      <td>Reth execution extension that plugs a UBT-backed state engine into a real client to evaluate EIP-7864 end-to-end.</td>
     </tr>
     <!--
     <tr>
@@ -45,7 +53,7 @@
   <tbody>
     <tr>
       <td nowrap><a href="https://github.com/igor53627/plinko-rs">plinko-rs</a></td>
-      <td>Practical Rust implementation of the PLINKO PIR protocol with data extraction from Sepolia and hint generation; built to feed real-world PIR queries from on-chain Ethereum data.</td>
+      <td>Practical Rust implementation of the PLINKO PIR protocol; extracts Sepolia state and generates hints to serve real PIR queries over on-chain Ethereum data.</td>
     </tr>
     <!--
     <tr>
@@ -55,19 +63,19 @@
     -->
     <tr>
       <td nowrap><a href="https://github.com/igor53627/inspire-rs">inspire-rs</a></td>
-      <td>Rust implementation of the INSPIRE PIR protocol; focuses on production-ready primitives and integration with Ethereum-style datasets.</td>
+      <td>Rust implementation of the INSPIRE PIR protocol, with production-ready primitives and integration for Ethereum-style datasets.</td>
     </tr>
     <tr>
       <td nowrap><a href="https://github.com/igor53627/inspire-exex">inspire-exex</a></td>
-      <td>Two-Lane InsPIRe PIR for private Ethereum state queries with honest-but-curious server.</td>
+      <td>Two-lane InsPIRe PIR for private Ethereum state queries under an honest-but-curious server.</td>
     </tr>
     <tr>
       <td nowrap><a href="https://github.com/igor53627/morphogenesis">morphogenesis</a></td>
-      <td>A new 2-server GPU accelerated DPF-PIR for the full Ethereum state.</td>
+      <td>A 2-server, GPU-accelerated DPF-PIR covering the full Ethereum state.</td>
     </tr>
     <tr>
       <td nowrap><a href="https://github.com/igor53627/rms24-rs">rms24-rs</a></td>
-      <td>RMS24 single-server PIR in Rust with optional CUDA acceleration and KeywordPIR benchmarking.</td>
+      <td>RMS24 single-server PIR in Rust, with optional CUDA acceleration and KeywordPIR benchmarks.</td>
     </tr>
   </tbody>
 </table>
@@ -84,11 +92,11 @@
   <tbody>
     <tr>
       <td nowrap><a href="https://github.com/igor53627/lwe-jump-table">lwe-jump-table</a></td>
-      <td>LWE-based control flow flattening for EVM; encrypts branch destinations in LWE ciphertexts for on-chain strategy obfuscation (n=768, q=4096, ~130-bit PQ security).</td>
+      <td>LWE-based control-flow flattening for the EVM; encrypts branch destinations as LWE ciphertexts for on-chain strategy obfuscation (n=768, q=4096, ~130-bit PQ security).</td>
     </tr>
     <tr>
       <td nowrap><a href="https://github.com/igor53627/ma-dai-shi-io">ma-dai-shi-io</a></td>
-      <td>Quasi-linear iO implementation (Ma-Dai-Shi 2025); Rust library, Lean 4 proofs, and on-chain seed phrase challenge demo.</td>
+      <td>Quasi-linear iO (Ma–Dai–Shi 2025): Rust library, Lean 4 proofs, and an on-chain seed-phrase challenge demo.</td>
     </tr>
   </tbody>
 </table>
@@ -105,23 +113,23 @@
   <tbody>
     <tr>
       <td nowrap><a href="https://github.com/igor53627/tor-ethereum-ecosystem">tor-ethereum-ecosystem</a></td>
-      <td>Ethereum ecosystem tools accessible over Tor; curated configs and examples for running RPCs, explorers, and infra as onion services.</td>
+      <td>Curated configs and examples for running Ethereum RPCs, explorers, and infrastructure as Tor onion services.</td>
     </tr>
     <tr>
       <td nowrap><a href="https://github.com/igor53627/webtor-rs">webtor-rs</a></td>
-      <td>Rust library for Tor web services; simplifies exposing HTTP APIs as onion services and managing Tor integration in Rust backends.</td>
+      <td>Rust library for exposing HTTP APIs as Tor onion services and managing Tor integration in Rust backends.</td>
     </tr>
     <tr>
       <td nowrap><a href="https://github.com/igor53627/onion-service-monitor">onion-service-monitor</a></td>
-      <td>Monitoring tool for onion services; tracks uptime, reachability, and health of Tor endpoints used by privacy-focused infrastructure.</td>
+      <td>Uptime, reachability, and health monitoring for the Tor onion-service endpoints behind privacy-focused infrastructure.</td>
     </tr>
     <tr>
       <td nowrap><a href="https://github.com/igor53627/blockscout-onion">blockscout-onion</a></td>
-      <td>Blockscout blockchain explorer over Tor; packages a full Blockscout stack behind an onion service for censorship-resistant chain analytics.</td>
+      <td>Full Blockscout explorer stack packaged behind a Tor onion service for censorship-resistant chain analytics.</td>
     </tr>
     <tr>
       <td nowrap><a href="https://github.com/igor53627/gethrelay">gethrelay</a></td>
-      <td>Geth relay service for Tor; enables Ethereum node communication over the Tor network.</td>
+      <td>Relay that carries Geth/Ethereum node communication over the Tor network.</td>
     </tr>
   </tbody>
 </table>
@@ -138,7 +146,7 @@
   <tbody>
     <tr>
       <td nowrap><a href="https://github.com/igor53627/ipfe.sol">ipfe.sol</a></td>
-      <td>Inner Product Functional Encryption for EVM using bn256 precompiles; enables private computation over encrypted on-chain data.</td>
+      <td>Inner-product functional encryption for the EVM via bn256 precompiles, enabling private computation over encrypted on-chain data.</td>
     </tr>
     <!--
     <tr>
@@ -148,15 +156,15 @@
     -->
     <tr>
       <td nowrap><a href="https://github.com/igor53627/liq">liq</a></td>
-      <td>Ultra gas-optimized ERC-3156 flash loans; minimizes gas costs for atomic arbitrage and liquidation bots.</td>
+      <td>Ultra gas-optimized ERC-3156 flash loans for atomic arbitrage and liquidation bots.</td>
     </tr>
     <tr>
       <td nowrap><a href="https://github.com/igor53627/iconregistry.eth">iconregistry.eth</a></td>
-      <td>Icon registry smart contract; on-chain mapping for asset/contract icons to improve UX for wallets, explorers, and dapps.</td>
+      <td>On-chain registry mapping assets and contracts to icons, improving UX for wallets, explorers, and dapps.</td>
     </tr>
     <tr>
       <td nowrap><a href="https://github.com/igor53627/evm-lwe-math">evm-lwe-math</a></td>
-      <td>Gas-optimized LWE inner-product primitives for on-chain lattice cryptography; supports both prime and power-of-2 moduli.</td>
+      <td>Gas-optimized LWE inner-product primitives for on-chain lattice cryptography; supports both prime and power-of-two moduli.</td>
     </tr>
     <tr>
       <td nowrap><a href="https://github.com/igor53627/evm-linear-accumulator">evm-linear-accumulator</a></td>
@@ -168,7 +176,7 @@
     </tr>
     <tr>
       <td nowrap><a href="https://github.com/igor53627/evm-lattice-pow">evm-lattice-pow</a></td>
-      <td>Standalone LatticePoW challenge primitive for EVM.</td>
+      <td>Standalone LatticePoW challenge primitive for the EVM.</td>
     </tr>
     <tr>
       <td nowrap><a href="https://github.com/igor53627/evm-regev">evm-regev</a></td>
@@ -182,52 +190,7 @@
     -->
     <tr>
       <td nowrap><a href="https://github.com/igor53627/voidgun">voidgun</a></td>
-      <td>Drop-in RPC privacy for Ethereum. Proxy architecture that turns existing multi-chain wallets into private transaction endpoints.</td>
+      <td>Drop-in RPC privacy for Ethereum — a proxy that turns existing multi-chain wallets into private transaction endpoints.</td>
     </tr>
-  </tbody>
-</table>
-
-### Private
-
-*These repos are not publicly available. Links are used by Player 53627 for easy navigation.*
-
-<table>
-  <thead>
-    <tr>
-      <th align="left">Project</th>
-      <th align="left">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td nowrap><a href="https://github.com/igor53627/circuit-mixing-research">circuit-mixing-research</a></td>
-      <td>Experimental lab for understanding how far we can push pure circuit mixing (without heavy cryptography) against compression and structural attacks.</td>
-    </tr>
-    <tr>
-      <td nowrap><a href="https://github.com/igor53627/yolo">yolo</a></td>
-      <td>Privacy-preserving yield-bearing stablecoin on Ethereum L1; explores fully collateralized stablecoin design with hidden balances and flows.</td>
-    </tr>
-    <tr>
-      <td nowrap><a href="https://github.com/igor53627/reth-relay">reth-relay</a></td>
-      <td>Privacy-focused P2P relay for reth with Tor/I2P support.</td>
-    </tr>
-    <!--
-    <tr>
-      <td nowrap><a href="https://github.com/igor53627/ex-exex">ex-exex</a></td>
-      <td>Blockscout-compatible indexer as a Reth sidecar; consumes Reth execution data to power Blockscout without a separate indexing stack.</td>
-    </tr>
-    -->
-    <!--
-    <tr>
-      <td nowrap><a href="https://github.com/igor53627/blockscout-proxy">blockscout-proxy</a></td>
-      <td>Caddy + Nodecore + TIG stack for Blockscout; production-oriented reverse proxy, logging, and observability layer for Blockscout deployments.</td>
-    </tr>
-    -->
-    <!--
-    <tr>
-      <td nowrap><a href="https://github.com/igor53627/fast-frontend">fast-frontend</a></td>
-      <td>High-performance frontend framework; optimized UI rendering for blockchain applications.</td>
-    </tr>
-    -->
   </tbody>
 </table>
