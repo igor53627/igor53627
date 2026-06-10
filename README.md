@@ -1,4 +1,4 @@
-## Privacy & cryptography for Ethereum
+## Privacy & cryptography research for Ethereum
 
 Research and implementations across private information retrieval, lattice cryptography, obfuscation, and Tor-based infrastructure.
 
